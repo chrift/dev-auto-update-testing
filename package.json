@@ -1,0 +1,19 @@
+{
+  "name": "your-app-name",
+  "version": "29.0.0",
+  "build": {
+    "appId": "com.chrift.app",
+    "publish": {
+      "provider": "github",
+      "owner": "chrift",
+      "repo": "dev-auto-update-testing"
+    }
+  },
+  "scripts": {
+    "publish": "electron-builder --publish always"
+  },
+  "devDependencies": {
+    "electron-builder": "^25.0.5",
+    "electron": "^32.1.2"
+  }
+}
